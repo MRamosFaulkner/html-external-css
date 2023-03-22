@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+nav {
+    background-color: black;
+    padding: 0;
+    border: none;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+nav ul li.logo {
+    background: green;
+    font-size: 75px;
+    font-weight: 400;
+    text-align: center;
+    width: 12%;
+    }
+
+.logo {
+    justify-content: flex-start;
+}
+nav ul div.tabs {
+    display: flex;
+    font-size: 18px;
+    padding: 10px 12px;
+}
+nav ul div.tabs li{
+    padding-right: 70px;
+    padding-left: 0;
+}
+nav ul div.items {
+    display: inline-flex;
+    padding: 0 25px;
+}
+.bar{
+    width: 200px;
+
+}
+.login{
+    font-variant: small-caps;
+    padding-right: 60px;
+}
